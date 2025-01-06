@@ -164,7 +164,6 @@ img{
     border-radius: 5px;
     resize: vertical; /* Allow resizing vertically only */
     display: block; /* Ensure it behaves as a block element */
-    color: #ffffff;
     
 }
 
@@ -172,6 +171,7 @@ img{
     outline: none;
     border-color: #00000000; /* Highlight border when focused */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    color: #f9f9f9;
 }
 
   /* Footer */
