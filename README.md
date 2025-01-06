@@ -1,4 +1,4 @@
-# Portfolio Website
+# Michael Chrysanthou Portfolio Website
 
 This repository contains the code for a personal portfolio website designed to showcase web applications and projects. Built with simplicity and functionality in mind, the website is crafted using **HTML**, **CSS**, and **JavaScript**.
 
