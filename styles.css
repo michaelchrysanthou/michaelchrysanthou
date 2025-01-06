@@ -157,7 +157,8 @@ img{
     height: 700px; /* Adjust height as needed */
     margin: 20px auto; /* Center horizontally and add top/bottom margins */
     padding: 0px;
-    font-size: 1rem;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
     font-family: Biryani;
     font-weight: bolder;
     border: 1px solid #ffffff;
