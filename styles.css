@@ -90,7 +90,7 @@ body, html {
 
 .about{
 
-  size: 50PX;
+  size: 100PX;
   /* padding-top: 1%;*/
   font-family: biryani;
   font-weight: bolder;
@@ -110,9 +110,10 @@ img{
 /* Container for the grid */
 .grid-container {
   display: grid;
-  gap: 20px; /* Space between grid items */
+  gap: 98px; /* Space between grid items */
   padding: 10px;
-  grid-template-columns: repeat(3, 1fr); /* 4 items per row */
+  /* grid-template-columns: repeat(4, auto);  4 items per row */
+  grid-template-columns: repeat(4, 561px);  
 }
 
 /* Individual grid items */
@@ -149,23 +150,8 @@ img{
   .bio-section {
     margin: 5px auto;
     text-align: center;
-}
-
-.bio-textbox {
-
-    width: 80%; /* Adjust width as needed */
-    height: 700px; /* Adjust height as needed */
-    margin: 20px auto; /* Center horizontally and add top/bottom margins */
-    padding: 0px;
-    padding-bottom: 10px;
-    font-size: 1.2rem;
-    font-family: Biryani;
-    font-weight: bolder;
-    border: 1px solid #ffffff;
-    border-radius: 5px;
-    resize: vertical; /* Allow resizing vertically only */
-    display: block; /* Ensure it behaves as a block element */
-    
+    color: #000000;
+    height: 300px;
 }
 
 .bio-textbox:focus {
